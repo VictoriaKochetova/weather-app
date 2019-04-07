@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  min-height: 100px;
+}
+input{
+  padding:0 5px;
+  font-size: 20px;
+}
+
+.weather__info{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+.weather__info .card{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.weather__info .desc{
+  font-size: 45px;
+  background: url('img/weather1.png') right top;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-left: 1px solid #ff3547;
+}
+.card p:first-child{
+  margin-top: 30px;
+}
+.card p:last-child{
+  margin-bottom: 30px;
+}
+.card p{
+  margin: 15px;
+  font-weight: 300;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+      background: #333;
+      padding: 5px 0 0;
+text-align: center;
+}
+.header h2{
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+}
+
+
+@media (max-width:767px) {
+   form {
+    flex-direction: column;
+    width: 100%;
+  }
+  form div{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+
+  }
+  .weather__info .card{
+    flex-direction: column-reverse;
+  }
+
+  .weather__info .desc{
+    padding:0;
+    border:none;
+    border-bottom: 1px solid #ff3547;
+  }
+  button{
+    width: 100%;
+  }
+
+}
