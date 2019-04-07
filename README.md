@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1><a href="https://victoriakochetova.github.io/weather-app/" target="_blank">Посмотреть демо</a></h1>
 
 ## Available Scripts
 
