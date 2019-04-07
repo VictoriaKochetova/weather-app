@@ -1,4 +1,4 @@
-<h1><a href="https://victoriakochetova.github.io/weather-app/" target="_blank">Посмотреть демо</a></h1>
+<h1><a href="https://victoriakochetova.github.io/weather-app/" rel="external">Посмотреть демо</a></h1>
 
 ## Available Scripts
 
